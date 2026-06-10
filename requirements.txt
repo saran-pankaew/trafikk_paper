@@ -1,0 +1,13 @@
+# TRAFIKK — install Python modules from GitHub (pin to tags/commits for reproducibility)
+
+git+https://github.com/druglogics/drexpa.git@main#egg=drexpa
+git+https://github.com/druglogics/oris.git@main#egg=oris
+git+https://github.com/druglogics/siflex.git@main#egg=siflex
+git+https://github.com/ViviamSB/SYNCO.git@main#egg=synco
+
+# NOTE: Gitsbe is Java-based (not a pip package).
+# - Use the prebuilt JAR in slurm/gitsbe_jobs/gitsbe-*.jar
+# - Or build Gitsbe from https://github.com/druglogics/gitsbe (Java 11+ required)
+
+# After a successful install, pin exact versions:
+#   pip freeze > requirements-locked.txt

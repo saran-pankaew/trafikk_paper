@@ -1,0 +1,27 @@
+{
+  "global": {
+    "output_dir": "runs/03_drexpa",
+    "verbose": false,
+    "save": true,
+    "base_data_dir": "data/raw/"
+  },
+  "paths": {
+    "drug_names_file": "drugs/screen_targets.csv",
+    "synergy_data_file": null,
+    "node_dict_file": "nodes/node_HGNC_dict.csv",
+    "tissue_cline_file": "metadata/cell_line_list.csv",
+    "db_file": null,
+    "manual_chembl_csv": "drugs/manual_chembl.csv"
+  },
+  "columns": {
+    "drug_name": "drug_name",
+    "concentration": "concentration",
+    "targets": "target",
+    "column_pubchem": "PubChemID"
+  },
+  "options": {
+    "use_pubchem_fallback": true,
+    "double_drug_screen": false,
+    "original_target_merge": "combine"
+  }
+}
