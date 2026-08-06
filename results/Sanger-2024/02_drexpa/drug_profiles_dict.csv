@@ -1,0 +1,12 @@
+PD_profile,drug_name
+PD_01,['Navitoclax']
+PD_02,"['Afatinib', 'Sapitinib', 'Lapatinib']"
+PD_03,['MK-2206']
+PD_04,['Palbociclib']
+PD_05,['Pictilisib']
+PD_06,['Crizotinib']
+PD_07,['Trametinib']
+PD_08,['Dabrafenib']
+PD_09,['Linsitinib']
+PD_10,['Taselisib']
+PD_11,['LGK974']

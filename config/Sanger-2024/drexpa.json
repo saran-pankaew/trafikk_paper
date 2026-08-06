@@ -1,0 +1,29 @@
+{
+  "global": {
+    "output_dir": "results/Sanger-2024/run_folders",
+    "verbose": true,
+    "save": true,
+    "base_data_dir": "data/"
+  },
+  "paths": {
+    "drug_names_file": "metadata/Sanger-2024/drug_info.csv",
+    "synergy_data_file": "metadata/Sanger-2024/synergy_data.csv",
+    "node_dict_file": "nodes/node_HGNC_dict.csv",
+    "tissue_cline_file": "metadata/Sanger-2024/clines_tissue.csv"
+  },
+  "columns": {
+    "drug_name": "drug_name",
+    "targets": "target",
+    "column_pubchem": "PubChemID",
+    "drug_name_A": "drug_name_A",
+    "drug_name_B": "drug_name_B",
+    "cell_line": "cell_line",
+    "synergy": "synergy"
+  },
+  "options": {
+    "synergy_threshold": 0.0,
+    "use_pubchem_fallback": true,
+    "double_drug_screen": true,
+    "original_target_merge": "combine"
+  }
+}

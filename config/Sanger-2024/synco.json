@@ -1,0 +1,20 @@
+{
+  "paths": {
+    "base": "tissues/biliary/",
+    "pipeline_runs": "tissues/biliary/cline_output",
+    "input": "input/",
+    "output": "tissues/biliary/synco_output/"
+  },
+  "general": {
+    "cell_lines": [],
+    "run_date": null,
+    "verbose": true
+  },
+  "compare": {
+    "prediction_method": "BooLEVARD",
+    "threshold": 0.1e-6,
+    "synergy_column": "synergy",
+    "analysis_mode": "cell_line",
+    "duplicate_strategy": "mean"
+  }
+}

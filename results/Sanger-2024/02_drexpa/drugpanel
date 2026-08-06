@@ -1,0 +1,12 @@
+#name	action	target	target_n
+PD_01	inhibits	BCL2L1	BCL2
+PD_02	inhibits	ERBB2	EGFR
+PD_03	inhibits	AKT1
+PD_04	inhibits	CyclinE_CDK2	CyclinD_CDK4_6	CCND1	CyclinB_CDK1
+PD_05	inhibits	mTOR_c2	mTOR_c1	PIK3CA
+PD_06	inhibits	MET	EGFR	IGF1R
+PD_07	inhibits	MEK_f
+PD_08	inhibits	BRAF
+PD_09	inhibits	IGF1R
+PD_10	inhibits	PIK3CA
+PD_11	inhibits	PORCN

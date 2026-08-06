@@ -1,1 +1,5 @@
 data/omics/*.csv filter=lfs diff=lfs merge=lfs -text
+results/Sanger-2024/run_folders/** filter=lfs diff=lfs merge=lfs -text
+results/Sanger-2024/05_synco/tissues/** filter=lfs diff=lfs merge=lfs -text
+results/Sanger-2024/06_siflex/output/node_scores_agg.csv filter=lfs diff=lfs merge=lfs -text
+results/Sanger-2024/06_siflex/output/pathway_scores.csv filter=lfs diff=lfs merge=lfs -text

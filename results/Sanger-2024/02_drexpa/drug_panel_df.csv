@@ -1,0 +1,12 @@
+PD_profile,node_targets
+PD_01,"['BCL2L1', 'BCL2']"
+PD_02,"['ERBB2', 'EGFR']"
+PD_03,['AKT1']
+PD_04,"['CyclinE_CDK2', 'CyclinD_CDK4_6', 'CCND1', 'CyclinB_CDK1']"
+PD_05,"['mTOR_c2', 'mTOR_c1', 'PIK3CA']"
+PD_06,"['MET', 'EGFR', 'IGF1R']"
+PD_07,['MEK_f']
+PD_08,['BRAF']
+PD_09,['IGF1R']
+PD_10,['PIK3CA']
+PD_11,['PORCN']

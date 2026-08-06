@@ -1,0 +1,13 @@
+metric,value
+n_nodes,63
+n_edges,177
+n_candidate_inputs,7
+n_candidate_outputs,2
+n_internal_nodes,54
+n_self_loops,0
+n_conflicting_edges,0
+n_high_degree_nodes,2
+n_high_in_degree_nodes,0
+n_high_total_degree_nodes,2
+max_in_degree,10
+max_total_degree,15

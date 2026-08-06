@@ -1,0 +1,16 @@
+PD_profile,inhibitor_group,drug_name,mechanism
+PD_01,BCL2i,['Navitoclax'],Apoptosis
+PD_02,EGFRi,['Axitinib'],RTK
+PD_03,ErBBi,"['Afatinib', 'Sapitinib', 'Lapatinib']",RTK
+PD_04,MDM2i,['Nutlin-3a (-)'],Apoptosis
+PD_05,FGFRi,['PD173074'],RTK
+PD_06,AKTi,['MK-2206'],AKT/MTOR
+PD_07,CDKi,['Palbociclib'],Cell cycle
+PD_08,PI3Ki,"['Pictilisib', 'Taselisib']",AKT/MTOR
+PD_09,METi,['Crizotinib'],RTK
+PD_10,MEKi,['Trametinib'],MAPK
+PD_11,RAFi,['Dabrafenib'],MAPK
+PD_12,IGFRi,['Linsitinib'],RTK
+PD_13,ERKi,['SCH772984'],MAPK
+PD_14,MTORi,['OSI-027'],AKT/MTOR
+PD_15,PORCNi,['LGK974'],WNT

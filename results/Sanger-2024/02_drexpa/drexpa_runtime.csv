@@ -1,0 +1,10 @@
+runtime_mode,step,duration_seconds
+without_concentrations,load_data,0.04
+without_concentrations,chembl_ids,1.657
+without_concentrations,targets,0.919
+without_concentrations,node_targets,0.02
+without_concentrations,profiles,0.097
+without_concentrations,panel,0.007
+without_concentrations,perturbations,11.08
+without_concentrations,synergies,8.968
+without_concentrations,total,22.788

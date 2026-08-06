@@ -1,0 +1,3 @@
+node,n_incoming,n_outgoing,total_degree,high_in_degree,high_total_degree,risk_type,recommendation
+MYC,9,8,17,False,True,high_total_degree,Review before Gitsbe; high-degree regulation may generate complex Boolean rules and slow or break Oris preprocessing.
+GSK3B,4,11,15,False,True,high_total_degree,Review before Gitsbe; high-degree regulation may generate complex Boolean rules and slow or break Oris preprocessing.

@@ -1,0 +1,44 @@
+# Celios Configuration
+# This config integrates omics data to calibrate the Boolean network to your cell lines.
+# For more details, see: https://druglogics.github.io/trafikk/celios/
+
+# Paths: all relative to project root
+paths:
+  base: "."
+  input: "data/"
+  output: "results/Sanger-2024/01_celios"
+  tissue_dir: "results/Sanger-2024/run_folders"
+
+# Two-step pipeline: Node extraction (optional) and Activity calculation
+steps:
+  # STEP 1: Node Dictionary Extraction (optional)
+  # If you have a pre-made node dictionary, skip this and provide node_dic in Activity below.
+  Node:
+    node_input: "network/cell_fate_plus.sif"  # SIF network file 
+    hgnc_symbols_file: "nodes/hgnc_complete_set.txt"  # HGNC reference
+    manual_symbols_file: "nodes/manual_symbols.csv"  # Manual gene→symbol mappings (optional)
+    include_alias_previous_symbols: false  # Include HGNC alias/previous symbols
+    directory_output: "results/Sanger-2024/01_celios"
+
+  # STEP 2: Activity Calculation (required)
+  Activity:
+    # Input files
+    activity_file:   # Gene expression (TPM or log2)
+    cell_line_file: "metadata/Sanger-2024/clines_tissue.csv"  # Cell lines to process
+    map_cline_identifiers: "auto"
+    format_override: "old"
+    tf_activity_file: "omics/ccle_tf_activities.csv"  # TF activity scores (optional)
+    mutations_file: "omics/CCLE_muts_binary.csv"  # Binary mutation matrix (optional)
+    cnv_file: "omics/CCLE_CNV_binary.csv"  # Copy number variation matrix (optional)
+
+    # Output
+    directory_output: "results/Sanger-2024/01_celios"
+
+    # Omics data to integrate (choose which to include)
+    data_sources: ["mutations", "cnv", "TF"]  # Options: "mutations", "cnv", "TF"
+
+# Notes
+# - YAML format requires pyyaml: pip install pyyaml
+# - JSON format also supported and requires no extra packages
+# - Node extraction is optional; if your node dictionary already exists, skip Node step
+# - Activity file should have genes as rows, cell lines as columns (or customizable via column mapping)

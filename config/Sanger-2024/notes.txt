@@ -1,0 +1,8 @@
+Drexpa:
+- copy the node_HGNC_dict.csv from results/01_celios to data/nodes
+- set "output_dir": "results/Sanger-2024/run_folders" to create the cline files inside the already created run_folders
+
+Gitsbe
+- copy the sif file from data/network to results/Sanger-2024/03_gitsbe
+
+TO-DO:
