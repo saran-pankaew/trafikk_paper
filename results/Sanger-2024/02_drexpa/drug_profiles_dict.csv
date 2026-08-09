@@ -1,12 +1,16 @@
 PD_profile,drug_name
 PD_01,['Navitoclax']
-PD_02,"['Afatinib', 'Sapitinib', 'Lapatinib']"
-PD_03,['MK-2206']
-PD_04,['Palbociclib']
-PD_05,['Pictilisib']
-PD_06,['Crizotinib']
-PD_07,['Trametinib']
-PD_08,['Dabrafenib']
-PD_09,['Linsitinib']
-PD_10,['Taselisib']
-PD_11,['LGK974']
+PD_02,['Axitinib']
+PD_03,"['Afatinib', 'Sapitinib', 'Lapatinib']"
+PD_04,['Nutlin-3a (-)']
+PD_05,['PD173074']
+PD_06,['MK-2206']
+PD_07,['Palbociclib']
+PD_08,"['Pictilisib', 'Taselisib']"
+PD_09,['Crizotinib']
+PD_10,['Trametinib']
+PD_11,['Dabrafenib']
+PD_12,['Linsitinib']
+PD_13,['SCH772984']
+PD_14,['OSI-027']
+PD_15,['LGK974']

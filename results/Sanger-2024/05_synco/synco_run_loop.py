@@ -5,17 +5,32 @@ import time
 import csv
 import sys
 import pandas
+import shutil
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parents[2]   # project/
 
-CONFIG_FILE = PROJECT_ROOT / "config" / "synco.json"
+CONFIG_FILE = PROJECT_ROOT / "config" / "Sanger-2024" / "synco.json"
 WORK_DIR = SCRIPT_DIR                  # results/S2024/05_synco/
 
 TISSUES_DIR = WORK_DIR / "tissues"
 INPUT_DIR = WORK_DIR / "input"
-SYNERGY_FILE = INPUT_DIR / "synergy_PD.csv"
+
+# --------------------------------------------------
+# Files that Synco needs inside input/
+# Set the original locations here
+# --------------------------------------------------
+
+SYNERGY_SOURCE = INPUT_DIR / "synergy_PD.csv"
+INHIBITOR_PROFILES_SOURCE = INPUT_DIR / "inhibitor_profiles.csv"
+INPUT_FILES = [
+    PROJECT_ROOT / "results" / "Sanger-2024" / "02_drexpa" / "drug_profiles.csv",
+    SYNERGY_SOURCE,
+    INHIBITOR_PROFILES_SOURCE,
+]
+SYNERGY_FILE = SYNERGY_SOURCE
+INHIBITOR_PROFILES_FILE = INHIBITOR_PROFILES_SOURCE
 
 OUTPUT_DIR = SCRIPT_DIR / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -25,6 +40,22 @@ ANALYSIS_MODES = [
     "cell_line",
     "inhibitor_combination",
 ]
+
+def build_input_folder() -> None:
+    """
+    Create the Synco input directory and copy the required input files into it.
+    """
+    print(f"Building Synco input folder: {INPUT_DIR}")
+    INPUT_DIR.mkdir(parents=True, exist_ok=True)
+    for source_file in INPUT_FILES:
+        source_file = source_file.resolve()
+        destination = (INPUT_DIR / source_file.name).resolve()
+        if source_file == destination:
+            print(f"Already in input folder, skipping: {source_file.name}")
+            continue
+        shutil.copy2(source_file, destination)
+        print(f"Copied: {source_file.name}")
+        print(f"to: {destination}")
 
 def build_config(
     template: dict,
@@ -50,10 +81,7 @@ def run_all_tissues() -> None:
             f"Missing template configuration: {CONFIG_FILE}"
         )
 
-    if not INPUT_DIR.exists():
-        raise FileNotFoundError(
-            f"Missing Synco input directory: {INPUT_DIR}"
-        )
+    build_input_folder()
 
     if not TISSUES_DIR.exists():
         raise FileNotFoundError(

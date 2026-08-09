@@ -1,0 +1,23 @@
+{
+  "input_files": {
+    "sif_network": "data/network/cell_fate_plus.sif",
+    "drug_profiles": "results/Sanger-2024/02_drexpa/drug_profiles.csv",
+    "inhibitor_profiles": "results/Sanger-2024/05_synco/input/inhibitor_profiles.csv",
+    "node_hgnc_file": "data/nodes/node_HGNC_dict.csv",
+    "kegg_categories": "data/kegg/kegg_categories.json",
+    "kegg_pathway": "data/kegg/kegg_pathway.csv",
+    "oris_results": "results/Sanger-2024/04_oris/output"
+  },
+  "output_files": {
+    "node_scores": "results/Sanger-2024/06_siflex/output/node_scores.csv",
+    "node_scores_agg": "results/Sanger-2024/06_siflex/output/node_scores_agg.csv",
+    "pathway_scores": "results/Sanger-2024/06_siflex/output/pathway_scores.csv",
+    "synergy_scores": "results/Sanger-2024/06_siflex/output/synergy_scores.csv",
+    "node_pathway_index": "results/Sanger-2024/06_siflex/output/node_pathway_index.json",
+    "pathway_catalog": "results/Sanger-2024/06_siflex/output/pathway_catalog.json"
+  },
+  "steps": {
+    "prepare_scores": true,
+    "calculate_scores": true
+  }
+}

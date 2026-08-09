@@ -986,7 +986,173 @@
         "category": "human_diseases_kegg"
       }
     ],
-    "BAK": [],
+    "BAK": [
+      {
+        "id": "hsa01524",
+        "name": "Platinum drug resistance - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa04141",
+        "name": "Protein processing in endoplasmic reticulum - Homo sapiens (human)",
+        "category": "genetic_information_processing_kegg"
+      },
+      {
+        "id": "hsa04210",
+        "name": "Apoptosis - Homo sapiens (human)",
+        "category": "cellular_processes_kegg"
+      },
+      {
+        "id": "hsa04215",
+        "name": "Apoptosis - multiple species - Homo sapiens (human)",
+        "category": "cellular_processes_kegg"
+      },
+      {
+        "id": "hsa05022",
+        "name": "Pathways of neurodegeneration - multiple diseases - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05130",
+        "name": "Pathogenic Escherichia coli infection - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05132",
+        "name": "Salmonella infection - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05160",
+        "name": "Hepatitis C - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05162",
+        "name": "Measles - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05163",
+        "name": "Human cytomegalovirus infection - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05164",
+        "name": "Influenza A - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05165",
+        "name": "Human papillomavirus infection - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05167",
+        "name": "Kaposi sarcoma-associated herpesvirus infection - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05168",
+        "name": "Herpes simplex virus 1 infection - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05169",
+        "name": "Epstein-Barr virus infection - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05170",
+        "name": "Human immunodeficiency virus 1 infection - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05200",
+        "name": "Pathways in cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05202",
+        "name": "Transcriptional misregulation in cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05203",
+        "name": "Viral carcinogenesis - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05206",
+        "name": "MicroRNAs in cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05210",
+        "name": "Colorectal cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05212",
+        "name": "Pancreatic cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05213",
+        "name": "Endometrial cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05214",
+        "name": "Glioma - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05216",
+        "name": "Thyroid cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05217",
+        "name": "Basal cell carcinoma - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05218",
+        "name": "Melanoma - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05220",
+        "name": "Chronic myeloid leukemia - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05222",
+        "name": "Small cell lung cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05223",
+        "name": "Non-small cell lung cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05224",
+        "name": "Breast cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05225",
+        "name": "Hepatocellular carcinoma - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      },
+      {
+        "id": "hsa05226",
+        "name": "Gastric cancer - Homo sapiens (human)",
+        "category": "human_diseases_kegg"
+      }
+    ],
     "BAX": [
       {
         "id": "hsa01521",
@@ -10034,6 +10200,7 @@
       "AKT1",
       "APAF1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -10285,6 +10452,7 @@
       "AKT1",
       "APAF1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -10797,6 +10965,7 @@
     ],
     "hsa05132": [
       "AKT1",
+      "BAK",
       "BAX",
       "BCL2",
       "CASP3",
@@ -10863,6 +11032,7 @@
       "AKT1",
       "APAF1",
       "BAD",
+      "BAK",
       "BAX",
       "BID",
       "BRAF",
@@ -10919,6 +11089,7 @@
       "AKT1",
       "APAF1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -10940,6 +11111,7 @@
     ],
     "hsa05163": [
       "AKT1",
+      "BAK",
       "BAX",
       "BID",
       "CASP3",
@@ -10968,6 +11140,7 @@
     "hsa05164": [
       "AKT1",
       "APAF1",
+      "BAK",
       "BAX",
       "BID",
       "CASP3",
@@ -10983,6 +11156,7 @@
       "APC",
       "AXIN1",
       "BAD",
+      "BAK",
       "BAX",
       "CASP3",
       "CCND1",
@@ -11033,6 +11207,7 @@
     ],
     "hsa05167": [
       "AKT1",
+      "BAK",
       "BAX",
       "BID",
       "CASP3",
@@ -11064,6 +11239,7 @@
       "AKT1",
       "APAF1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -11079,6 +11255,7 @@
     "hsa05169": [
       "AKT1",
       "APAF1",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L11",
@@ -11104,6 +11281,7 @@
     "hsa05170": [
       "AKT1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -11128,6 +11306,7 @@
       "APC",
       "AXIN1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -11238,6 +11417,7 @@
       "APC",
       "AXIN1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L11",
@@ -11281,6 +11461,7 @@
     "hsa05212": [
       "AKT1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2L1",
       "BRAF",
@@ -11308,6 +11489,7 @@
       "APC",
       "AXIN1",
       "BAD",
+      "BAK",
       "BAX",
       "BRAF",
       "CASP9",
@@ -11330,6 +11512,7 @@
     ],
     "hsa05214": [
       "AKT1",
+      "BAK",
       "BAX",
       "BRAF",
       "CCND1",
@@ -11381,6 +11564,7 @@
     "hsa05218": [
       "AKT1",
       "BAD",
+      "BAK",
       "BAX",
       "BRAF",
       "CCND1",
@@ -11402,6 +11586,7 @@
     "hsa05220": [
       "AKT1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2L1",
       "BRAF",
@@ -11439,6 +11624,7 @@
     "hsa05222": [
       "AKT1",
       "APAF1",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -11460,6 +11646,7 @@
     "hsa05223": [
       "AKT1",
       "BAD",
+      "BAK",
       "BAX",
       "BRAF",
       "CASP9",
@@ -11483,6 +11670,7 @@
       "AKT1",
       "APC",
       "AXIN1",
+      "BAK",
       "BAX",
       "BRAF",
       "CCND1",
@@ -11513,6 +11701,7 @@
       "APC",
       "AXIN1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2L1",
       "BRAF",
@@ -11543,6 +11732,7 @@
       "AKT1",
       "APC",
       "AXIN1",
+      "BAK",
       "BAX",
       "BCL2",
       "BRAF",
@@ -11675,6 +11865,7 @@
     ],
     "hsa04215": [
       "APAF1",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -11742,6 +11933,7 @@
       "APC",
       "AXIN1",
       "BAD",
+      "BAK",
       "BAX",
       "BCL2",
       "BCL2L1",
@@ -11816,6 +12008,7 @@
     ],
     "hsa05206": [
       "APC",
+      "BAK",
       "BCL2",
       "BCL2L11",
       "CASP3",
@@ -11845,6 +12038,7 @@
     "hsa05217": [
       "APC",
       "AXIN1",
+      "BAK",
       "BAX",
       "CDKN1A",
       "CTNNB1",
@@ -11854,6 +12048,7 @@
     ],
     "hsa05203": [
       "BAD",
+      "BAK",
       "BAX",
       "CASP3",
       "CCND1",
@@ -11874,19 +12069,13 @@
       "TP53"
     ],
     "hsa04141": [
+      "BAK",
       "BAX",
       "BCL2",
       "MAPK8"
     ],
-    "hsa04217": [
-      "BAX",
-      "BCL2",
-      "BID",
-      "MAPK8",
-      "STAT3",
-      "XIAP"
-    ],
     "hsa05130": [
+      "BAK",
       "BAX",
       "CASP3",
       "CASP9",
@@ -11897,6 +12086,7 @@
       "MAPK8"
     ],
     "hsa05202": [
+      "BAK",
       "BAX",
       "BCL2L1",
       "CDKN1A",
@@ -11908,6 +12098,7 @@
       "TP53"
     ],
     "hsa05216": [
+      "BAK",
       "BAX",
       "BRAF",
       "CCND1",
@@ -11920,6 +12111,14 @@
       "MEK_f",
       "MYC",
       "TP53"
+    ],
+    "hsa04217": [
+      "BAX",
+      "BCL2",
+      "BID",
+      "MAPK8",
+      "STAT3",
+      "XIAP"
     ],
     "hsa04064": [
       "BCL2",

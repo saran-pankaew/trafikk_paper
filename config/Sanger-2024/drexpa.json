@@ -14,7 +14,7 @@
   "columns": {
     "drug_name": "drug_name",
     "targets": "target",
-    "column_pubchem": "PubChemID",
+    "column_chembl": "ChEMBL_ID",
     "drug_name_A": "drug_name_A",
     "drug_name_B": "drug_name_B",
     "cell_line": "cell_line",
@@ -22,8 +22,7 @@
   },
   "options": {
     "synergy_threshold": 0.0,
-    "use_pubchem_fallback": true,
     "double_drug_screen": true,
-    "original_target_merge": "combine"
+    "original_target_merge": "override"
   }
 }

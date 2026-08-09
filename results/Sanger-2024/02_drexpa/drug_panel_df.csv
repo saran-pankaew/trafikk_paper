@@ -1,12 +1,16 @@
 PD_profile,node_targets
-PD_01,"['BCL2L1', 'BCL2']"
-PD_02,"['ERBB2', 'EGFR']"
-PD_03,['AKT1']
-PD_04,"['CyclinE_CDK2', 'CyclinD_CDK4_6', 'CCND1', 'CyclinB_CDK1']"
-PD_05,"['mTOR_c2', 'mTOR_c1', 'PIK3CA']"
-PD_06,"['MET', 'EGFR', 'IGF1R']"
-PD_07,['MEK_f']
-PD_08,['BRAF']
-PD_09,['IGF1R']
-PD_10,['PIK3CA']
-PD_11,['PORCN']
+PD_01,"['BCL2', 'BCL2L1']"
+PD_02,['EGFR']
+PD_03,"['EGFR', 'ERBB2']"
+PD_04,['MDM2']
+PD_05,['FGFR']
+PD_06,['AKT1']
+PD_07,['CyclinD_CDK4_6']
+PD_08,['PIK3CA']
+PD_09,['MET']
+PD_10,['MEK_f']
+PD_11,['BRAF']
+PD_12,['IGF1R']
+PD_13,['ERK_f']
+PD_14,"['mTOR_c1', 'mTOR_c2']"
+PD_15,['PORCN']

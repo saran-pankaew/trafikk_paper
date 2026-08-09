@@ -7,6 +7,7 @@
 #SBATCH --mem=10G                        # Memory per job
 #SBATCH --time=04:00:00                 # Time limit for each job
 #SBATCH --partition=CPUQ             # Partition to submit to
+#SBATCH --exclude=idun-04-34
 
 set -u 
 module load  Java/11.0.20
