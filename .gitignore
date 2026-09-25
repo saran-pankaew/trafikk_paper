@@ -1,2 +1,9 @@
 documentation/vivi_notes.txt
 results/Sanger-2024/03_gitsbe/runtime_estimation
+
+# Ignore all files in the personal run
+results/Sanger-2024-SPrun
+config/Sanger-2024-SPrun
+
+# ignore the Understand-everything folder
+.ua/

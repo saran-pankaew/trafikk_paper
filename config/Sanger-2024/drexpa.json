@@ -1,6 +1,6 @@
 {
   "global": {
-    "output_dir": "results/Sanger-2024/run_folders",
+    "output_dir": "results/Sanger-2024-SPrun/run_folders",
     "verbose": true,
     "save": true,
     "base_data_dir": "data/"

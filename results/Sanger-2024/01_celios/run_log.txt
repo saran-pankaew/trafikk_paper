@@ -1680,3 +1680,54 @@ Step 4 - Training-file writing
   Output directory: C:\Users\viviamsb\OneDrive - NTNU\PhD Folder\Pipeline\trafikk_paper\results\Sanger-2024\run_folders
   Cell-line folders: 757
   Tissue folders: 26
+
+======================================================
+CELIOS RUN SUMMARY
+======================================================
+Total runtime (s): 2.05
+Failed step: step1
+Error message: [Errno 2] No such file or directory: '/Users/saran/Git/trafikk_paper/data/metadata/Sanger-2024-SPrun/clines_tissue.csv'
+
+Step 1 - Node dictionary
+  Runtime (s): 2.044
+  Node count: 63
+  Missing mappings: 0
+
+======================================================
+CELIOS RUN SUMMARY
+======================================================
+Total runtime (s): 11.78
+
+Step 1 - Node dictionary
+  Runtime (s): 2.054
+  Node count: 63
+  Missing mappings: 0
+
+Step 2 - Identifier resolution
+  Runtime (s): 0.125
+  Total rows: 757
+  Resolved: 757
+  Ambiguous: 0
+  Unresolved: 0
+  Alias count: 1513
+
+Step 3 - Omics / activity matrix
+  Runtime (s): 8.016
+  Selected sources: mutations, cnv, TF
+  Mutations shape: (63, 729)
+  CNV shape: (63, 732)
+  TF matrix shape: (11, 757)
+  Final matrix shape: (63, 758)
+  Source coverage:
+    TF: 757/757 SIDMs matched, shape=(11, 757)
+    mutations: 729/757 SIDMs matched, shape=(63, 729)
+      Missing SIDMs: SIDM00982, SIDM00940, SIDM00917, SIDM00285, SIDM00888, SIDM01050, SIDM00858, SIDM00856, SIDM01063, SIDM01013
+    cnv: 732/757 SIDMs matched, shape=(63, 732)
+      Missing SIDMs: SIDM00982, SIDM00798, SIDM00211, SIDM00933, SIDM01050, SIDM00195, SIDM00858, SIDM00855, SIDM00537, SIDM01063
+
+Step 4 - Training-file writing
+  Runtime (s): 1.581
+  Output mode: tissue-aware
+  Output directory: /Users/saran/Git/trafikk_paper/results/Sanger-2024-SPrun/run_folders
+  Cell-line folders: 757
+  Tissue folders: 26
